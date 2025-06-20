@@ -319,6 +319,37 @@ section#portfolio {
 }
 
 
+.container-obrigado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
 
+.container-obrigado h1 {
+    font-size: 2.5rem;
+    color: #0077ff;
+    margin-bottom: 20px;
+}
 
+.container-obrigado p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn-voltar {
+    padding: 10px 20px;
+    background-color: #0077ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-voltar:hover {
+    background-color: #005fcc;
+}
 
