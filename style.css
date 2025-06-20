@@ -1,4 +1,4 @@
-/* Reset básico */
+/* Reset padrão para remover margens e paddings */
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +9,7 @@ html {
   scroll-behavior: smooth; /* scroll suave */
 }
 
+/* Estilo geral do corpo */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f5f8ff;
@@ -16,7 +17,7 @@ body {
   min-height: 100vh;
 }
 
-/* Menu fixo no topo */
+/* Cabeçalho fixo */
 header {
   background: rgb(19, 19, 19);
   padding: 20px 0;
@@ -26,6 +27,7 @@ header {
   z-index: 100;
 }
 
+/* Estilização do menu */
 nav ul {
   list-style: none;
   display: flex;
@@ -58,7 +60,7 @@ nav ul li a:focus {
   box-shadow: 0 4px 12px rgba #009df8;
 }
 
-/* Espaço interno para que o conteúdo não fique atrás do header fixo */
+/* Conteúdo principal */
 main {
   padding-top: 80px;
   max-width: 900px;
@@ -68,7 +70,7 @@ main {
 }
 
 
-
+/* Seções */
 section {
   scroll-margin-top: 6rem; 
   padding-top: 4rem;
@@ -106,6 +108,7 @@ section {
   line-height: 1.5;
 }
 
+/* Botões */
 .botoes-download {
   display: flex;
   gap: 20px;
@@ -310,9 +313,10 @@ section#contato {
 }
 
 
-/* TESTES */
+/* Testes de responsividade e melhorias visuais */
+/* Ajustei tamanhos, alinhamentos e bordas para deixar o layout mais bonito e responsivo */
 
- section#formacao,
+section#formacao,
 section#portfolio {
   line-height: 1.8;
   font-size: 1.1rem;
@@ -361,7 +365,7 @@ section#portfolio {
   text-align: justify;
 }
 
-
+/* Alteração das cores do h3 da formação educacional para combinar com o resto do site*/
 h3 {
 
   color:#009df8;

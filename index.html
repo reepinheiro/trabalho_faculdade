@@ -10,6 +10,8 @@
 
 <body>
 
+<!-- Cabeçalho com menu de navegação -->
+
   <header>
     <nav>
       <ul>
@@ -21,13 +23,14 @@
     </nav>
   </header>
 
+  <!-- Conteúdo principal -->
   <main>
     <section id="sobre">
       <div class="perfil-container">
         <img src="20230818_150438.jpg" alt="Foto de Renan Pinheiro" class="foto-perfil" />
         <div class="descricao-perfil">
           <h1>OLÁ, ME CHAMO RENAN PINHEIRO</h1>
-          <br>
+          <br> <!-- Descrição pessoal -->
           <p>Sou estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia, principalmente por segurança da informação. Também gosto bastante de jogos eletrônicos; acho que eles ajudam a treinar o raciocínio e a criatividade, e são um dos meus principais lazeres. Meu hobby é mexer com computadores e hardware — adoro fuçar para entender como as coisas funcionam e sempre estou tentando melhorar e otimizar o desempenho do meu PC. Sempre acompanho as novidades tecnológicas e quero usar o que aprendo para fazer projetos que realmente importam.</p>
           <div class="botoes-download">
             <a href="curriculorenan.png" download class="btn-download">Download Currículo</a>
@@ -37,6 +40,7 @@
       </div>
     </section>
 
+<!-- Seção Formação -->
    <section id="formacao">
   <h2><u>Formação Educacional</u></h2>
   <br>
@@ -56,6 +60,7 @@
   <p>Atendimento ao Público, Postura e Imagem Profissional.</p>
 </section>
 
+<!-- Seção Portfólio -->
     <section id="portfolio">
       <h2><u>Portfólio</u></h2>
       <br>
@@ -69,12 +74,14 @@
       </ul>
     </section>
 
+<!-- Seção Contato -->
     <section id="contato">
       <h2><u>Contato</u></h2>
       <form action="https://formsubmit.co/reepinheiro@live.com" method="POST">
+<!-- Configurações ocultas do form -->
         <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_next" value="https://reepinheiro.github.io/trabalho_faculdade/obrigado.html">
-
+<!-- Campos do formulário -->
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
 
@@ -89,13 +96,14 @@
     </section>
   </main>
 
+<!-- Script de rolagem suave -->
   <script>
-    // Espera o DOM carregar
+    
     document.addEventListener('DOMContentLoaded', () => {
       const header = document.querySelector('header');
       const headerHeight = header.offsetHeight;
 
-      // Seleciona todos os links que começam com #
+      
       document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
           e.preventDefault();
@@ -116,7 +124,7 @@
       });
     });
   </script>
-
+<!-- Rodapé -->
   <footer>
     <div class="footer-container">
       <p>Esse site foi desenvolvido por Renan Pinheiro como trabalho prático na matéria de "Ferramentas de Desenvolvimento Web" - Uninter
